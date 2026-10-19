@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu — Chu Bakery, Highgate Perth</title>
+<meta name="description" content="Sample menu: sourdough, pastries and coffee at Chu Bakery, 498 William St, Highgate WA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Chu Bakery home">
+      <span class="brand-mark"><i class="bi bi-croissant"></i></span>
+      <span class="brand-name">Chu Bakery</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Visit Us</a>
+    </nav>
+    <span class="concept-badge header-badge"><i class="bi bi-palette2"></i>Design concept — free preview</span>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Visit Us</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="concept-badge"><i class="bi bi-palette2"></i>Design concept — free preview</span>
+      <h1>The menu</h1>
+      <p>Baked fresh every morning, Tue–Sun. When the case is empty, we're done for the day.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+
+      <div class="menu-cat">
+        <h3><span class="tile tile-terracotta" style="margin:0"><i class="bi bi-basket2"></i></span>Sourdough &amp; Breads</h3>
+        <p>48-hour fermented, baked at dawn.</p>
+        <div class="menu-items">
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-sourdough.jpg" alt="Country Sourdough" loading="lazy"><div><h4>Country Sourdough</h4><p>The signature loaf — crackling crust, open crumb.</p></div><span class="price">$9</span></div>
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-seeded-wholegrain.jpg" alt="Seeded Wholegrain" loading="lazy"><div><h4>Seeded Wholegrain</h4><p>Hearty loaf with toasted seeds and grains.</p></div><span class="price">$10</span></div>
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-olive-rosemary.jpg" alt="Olive & Rosemary" loading="lazy"><div><h4>Olive &amp; Rosemary</h4><p>Weekend special — briny olives, fragrant rosemary.</p></div><span class="price">$11</span></div>
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-baguette.jpg" alt="Baguette" loading="lazy"><div><h4>Baguette</h4><p>Crisp, chewy, gone by 9am most days.</p></div><span class="price">$5.50</span></div>
+        </div>
+      </div>
+
+      <div class="menu-cat">
+        <h3><span class="tile tile-green" style="margin:0"><i class="bi bi-croissant"></i></span>Pastries &amp; Sweets</h3>
+        <p>Laminated by hand, filled generously.</p>
+        <div class="menu-items">
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-butter-croissant.jpg" alt="Butter Croissant" loading="lazy"><div><h4>Butter Croissant</h4><p>Shattering layers, proper French butter.</p></div><span class="price">$5.50</span></div>
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-almond-croissant.jpg" alt="Almond Croissant" loading="lazy"><div><h4>Almond Croissant</h4><p>Twice-baked with frangipane and flaked almonds.</p></div><span class="price">$7</span></div>
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-pain-au-chocolat.jpg" alt="Pain au Chocolat" loading="lazy"><div><h4>Pain au Chocolat</h4><p>Dark chocolate batons in golden pastry.</p></div><span class="price">$6.50</span></div>
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-fruit-danish.jpg" alt="Seasonal Fruit Danish" loading="lazy"><div><h4>Seasonal Fruit Danish</h4><p>Whatever's best at the markets this week.</p></div><span class="price">$7.50</span></div>
+        </div>
+      </div>
+
+      <div class="menu-cat">
+        <h3><span class="tile tile-cream" style="margin:0"><i class="bi bi-cup-hot"></i></span>Coffee &amp; Drinks</h3>
+        <p>Proper espresso to go with your pastry.</p>
+        <div class="menu-items">
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-flat-white.jpg" alt="Flat White / Latte" loading="lazy"><div><h4>Flat White / Latte</h4><p>Silky, balanced, made with care.</p></div><span class="price">$4.50</span></div>
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-espresso.jpg" alt="Long Black / Espresso" loading="lazy"><div><h4>Long Black / Espresso</h4><p>For the purists.</p></div><span class="price">$4</span></div>
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-chai.jpg" alt="Chai / Hot Chocolate" loading="lazy"><div><h4>Chai / Hot Chocolate</h4><p>Spiced chai or rich drinking chocolate.</p></div><span class="price">$5.50</span></div>
+          <div class="menu-item"><img class="menu-thumb" src="images/menu-orange-juice.jpg" alt="Fresh Orange Juice" loading="lazy"><div><h4>Fresh Orange Juice</h4><p>Squeezed to order.</p></div><span class="price">$7</span></div>
+        </div>
+      </div>
+
+      <div class="sample-note">
+        <i class="bi bi-info-circle"></i>
+        Sample menu shown for design purposes — the real daily range is whatever comes out of the oven each morning.
+      </div>
+
+      <div style="text-align:center;margin-top:3rem">
+        <a class="btn btn-terracotta" href="contact.html"><i class="bi bi-geo-alt"></i>Come taste it in person</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Chu Bakery</div>
+        <p>Artisan sourdough, pastries &amp; coffee.<br>498 William St, Highgate WA 6003</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Visit Us</a></li>
+      </ul>
+      <span class="concept-badge"><i class="bi bi-palette2"></i>Design concept — free preview</span>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Chu Bakery · Design concept mockup</span>
+      <span>Open Tue–Sun · 7:00 AM – 4:00 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="menu.js"></script>
+</body>
+</html>
