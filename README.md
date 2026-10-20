@@ -1,6 +1,6 @@
 # Chu Bakery
 
-Demo website concept for **Chu Bakery** — Perth, Australia.
+Demo website concept for **Chu Bakery** — Highgate, Perth WA.
 
 Live preview: https://chu-bakery-perth-mockup.netlify.app
 
